@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class ListItem extends Component {
   render() {
     return (
-      <li>
+      <li style={{fontSize: '18px'}}>
         {this.props.artist}
       </li>
     )

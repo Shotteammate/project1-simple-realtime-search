@@ -1,0 +1,8 @@
+.DataListStyle ul {
+  background: #03767a;
+  list-style: none;
+  height: 500px;
+  color: white;
+  overflow: auto;
+  padding-right: 5%;
+}

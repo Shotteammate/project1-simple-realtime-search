@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ListItem from './ListItem';
+import './DataList.css';
 
 export class DataList extends Component {
 
@@ -14,7 +15,7 @@ export class DataList extends Component {
     });
 
     return (
-      <div>
+      <div className="DataListStyle">
         <ul>
           {list}
         </ul>
